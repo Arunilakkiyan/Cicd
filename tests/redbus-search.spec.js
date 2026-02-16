@@ -23,4 +23,7 @@ await page.fill('#input[type="text"]', 'Bangalore'); // Fill the city name
   await page.keyboard.press('ArrowDown');
   await page.keyboard.press('Enter');
   await browser.close();
+
+  console.log("Arun Update V01");
+  
 });
